@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            width: 90%;
+            margin: 20px auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery Page</h1>
+    </header>
+    <main>
+        <section class="gallery">
+            <figure>
+                <img src="Sunrise.jpg" alt="A beautiful sunrise over the mountains">
+                <figcaption>Sunrise over the mountains</figcaption>
+            </figure>
+            <figure>
+                <img src="lake.jpg" alt="A serene lake surrounded by trees">
+                <figcaption>Serene lake</figcaption>
+            </figure>
+            <figure>
+                <img src="city.jpg" alt="A city skyline at dusk">
+                <figcaption>City skyline at dusk</figcaption>
+            </figure>
+            <figure>
+                <img src="flower.jpg" alt="A close-up of a flower in bloom">
+                <figcaption>Flower in bloom</figcaption>
+            </figure>
+            <figure>
+                <img src="Road.jpg" alt="A winding road through the forest">
+                <figcaption>Winding forest road</figcaption>
+            </figure>
+            <figure>
+                <img src="Sky.jpg" alt="A starry night sky">
+                <figcaption>Starry night sky</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>

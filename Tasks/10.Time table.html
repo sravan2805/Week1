@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: bisque;
+        }
+        td {
+            background-color: ivory;
+        }
+        .time {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Btech ECE II-II Time Table</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time">Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time">9:10 AM - 10:10 AM</td>
+                    <td>CSE</td>
+                    <td rowspan="3">MM lab</td>
+                    <td>MM</td>
+                    <td rowspan="3">Ac lab</td>
+                    <td>Verbal</td>
+                    <td>PTSP</td>
+                </tr>
+                <tr>
+                    <td class="time">10:10 AM - 11:10 AM</td>
+                    <td>MM</td>
+                    <td>CSE</td>
+                    <td rowspan="2">TT</td>
+                    <td>PSS</td>
+                </tr>
+                <tr>
+                    <td class="time">11:10 - 12:10 AM</td>
+                    <td>PTSP</td>
+                    <td>PTSP</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td class="time">12:10 PM - 1:00 PM</td>
+                    <td colspan="6">Lunch Break</td>
+                </tr>
+                <tr>
+                    <td class="time">1:00 PM - 2:00 PM</td>
+                    <td>AC</td>
+                    <td>MM</td>
+                    <td rowspan="3">SC lab</td>
+                    <td>PTSP</td>
+                    <td rowspan="2">SOC-II(LAB)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time">2:00 PM - 3:00 PM</td>
+                    <td>PSS</td>
+                    <td>AC</td>
+                    <td>Aptitude</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time">3:00 PM - 4:00 PM</td>
+                    <td>ES</td>
+                    <td rowspan="2">TT</td>
+                    <td>CSE</td>
+                    <td>PSS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time">4:00 PM - 5:00 PM</td>
+                    <td>Python</td>
+                    <td>SOC</td>
+                    <td>PSS</td>
+                    <td>AC</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
